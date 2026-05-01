@@ -1,0 +1,5 @@
+member_id,activity_month,activity_type,activity_count,total_amount
+1001,2025-02,rx,1,48.5
+1002,2025-02,lab,1,210.0
+1003,2025-02,other,1,15.0
+1003,2025-03,rx,1,35.25

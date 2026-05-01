@@ -1,0 +1,4 @@
+member_id,region,coverage_start,coverage_end
+1001,ne,2025-01-01,2025-12-31
+1002,se,2025-02-01,2025-12-31
+1003,west,2025-01-15,2025-10-31

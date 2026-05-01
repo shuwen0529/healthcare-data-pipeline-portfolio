@@ -1,0 +1,7 @@
+member_id,activity_date,activity_type,amount,status
+1001,2025-01-15,rx,45.00,valid
+1001,2025-02-01,rx,48.50,valid
+1002,2025-02-03,lab,210.00,valid
+1002,2025-02-04,visit,125.00,invalid
+1003,2025-02-10,other,15.00,valid
+1003,2025-03-12,rx,35.25,valid

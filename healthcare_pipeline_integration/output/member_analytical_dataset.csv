@@ -1,0 +1,4 @@
+member_id,region,total_activity_count,total_amount,rx_count,lab_count,last_activity_date
+1001,NE,2,165.6,1,0,2025-03-05
+1002,SE,1,200.0,0,1,2025-02-20
+1003,WEST,1,32.75,1,0,2025-06-01
