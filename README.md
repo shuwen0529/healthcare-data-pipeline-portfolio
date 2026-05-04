@@ -1,17 +1,98 @@
-# Code Samples for Mathematica Sr. Data Analytics Developer Application
+# Data Pipeline & Analytics Code Samples  
+## (Sr. Data Analytics Developer Application)
 
-These anonymized code samples are based on two representative healthcare/commercial analytics projects. They are designed to demonstrate current Python and SQL skills relevant to scalable data pipelines, data quality, workflow optimization, and stakeholder-ready analytical datasets.
+**For reviewers:** Please see the **Recommended Samples to Highlight** section below for key projects.
 
-## Recommended samples to highlight
+These anonymized code samples represent my recent work building scalable data pipelines, implementing data quality frameworks, and optimizing analytics workflows using Python and SQL.
 
-1. `healthcare_pipeline_integration/`  
-   Demonstrates end-to-end ETL design: ingestion, standardization, validation, integration, and production of an analytical dataset from multiple source systems.
+They are simplified versions of production work but reflect real-world design patterns used to process large, complex datasets and generate reliable analytical outputs for decision-making.
 
-2. `workflow_optimization_quality/`  
-   Demonstrates pipeline optimization and quality monitoring: query optimization patterns, incremental processing, validation checks, and run-level data quality reporting.
+---
+
+## Quick Overview
+
+- Built end-to-end ETL pipelines integrating multiple structured datasets  
+- Implemented data validation frameworks (schema checks, completeness, consistency)  
+- Optimized data workflows using incremental processing and SQL performance tuning  
+- Designed analytical datasets to support downstream analysis and stakeholder use  
+
+---
+
+## Recommended Samples to Highlight
+
+### 1. `healthcare_pipeline_integration/`
+**Focus:** End-to-end ETL pipeline and data quality
+
+- Multi-source data ingestion and standardization  
+- Integration into a unified analytical dataset  
+- Built-in data validation framework:
+  - Schema validation  
+  - Primary key integrity checks  
+  - Missing data handling  
+  - Cross-source consistency validation  
+
+**Key files to review:**
+- `validators.py` → data quality checks  
+- `pipeline.py` → pipeline orchestration  
+- `sql/transform.sql` → analytical dataset logic  
+
+---
+
+### 2. `workflow_optimization_quality/`
+**Focus:** Pipeline optimization and data quality monitoring
+
+- Incremental processing patterns for efficiency  
+- SQL optimization (joins, transformations, merge strategies)  
+- Data quality reporting and validation summaries  
+- Workflow performance improvements  
+
+**Key files to review:**
+- `incremental_pipeline.py` → optimized processing logic  
+- `quality_report.py` → validation reporting  
+- `sql/merge.sql` → efficient update/merge logic  
+
+---
+
+## What These Samples Demonstrate
+
+These projects reflect how I approach real-world data engineering and analytics problems:
+
+- Designing scalable and maintainable data pipelines  
+- Ensuring data quality through validation and monitoring  
+- Optimizing performance for large datasets  
+- Translating complex data into usable analytical outputs  
+
+---
+
+## Real-World Context
+
+These examples are simplified for clarity. In production environments, additional complexities include:
+
+- Large-scale data processing requiring distributed systems (e.g., Spark, cloud platforms)  
+- More extensive validation rules, auditability, and data governance requirements  
+- Pipeline monitoring, logging, and failure handling  
+- Evolving stakeholder requirements and iterative development cycles  
+- Integration across heterogeneous systems with inconsistent definitions  
+
+The design principles demonstrated here reflect how I approach these challenges in practice.
+
+---
+
+## Relevance to Healthcare Data & Policy Analysis
+
+These patterns translate directly to healthcare datasets such as claims and survey data, which require:
+
+- Integration of multiple structured sources (e.g., patient, encounter, diagnosis, procedure data)  
+- Consistent definitions and standardization across datasets  
+- Validation of coded fields and longitudinal data integrity  
+- Scalable processing for large, high-dimensional datasets  
+
+The same pipeline, validation, and optimization approaches demonstrated here are directly applicable to healthcare policy and research workflows.
+
+---
 
 ## Notes
 
-- All data is synthetic and anonymized.
-- Code is intentionally lightweight so reviewers can understand the structure quickly.
-- The patterns are transferable to claims, survey, administrative, commercial, and operational datasets.
+- All data is synthetic and anonymized  
+- Code is intentionally simplified for readability and review efficiency  
+- Examples are designed to highlight structure, design patterns, and approach rather than full production complexity  
